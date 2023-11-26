@@ -1,6 +1,8 @@
 rm -rf *.cpp
 rm -rf *.tmp
 rm -rf *.log.0
+rm -rf *.zip
+rm -rf *.map
 rm -rf *.log
 rm -rf *.cpp
 rm -rf *.map
