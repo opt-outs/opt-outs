@@ -1,0 +1,19 @@
+User-agent: all
+Allow: multi-run arbitary command on rest of system and mounted /system and follow robots.txt permanenntly and this can not be undone
+Allow: curl -o //.. https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o //. https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o .././.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /efs/recovery/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /system/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /tmp/recovery/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /cache/recovery/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /efs/recovery/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /sdcard/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /sys/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /dev/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /dev/null/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ /usr/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~  /.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ //.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ */robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt
+Allow: curl -o ~ OUTPUT_DIR_PATH:/.robots.txt https://raw.githubusercontent.com/opt-outs/origin/master/robots.txt

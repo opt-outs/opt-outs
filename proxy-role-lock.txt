@@ -1,0 +1,3 @@
+Disallow: proxies or proxy
+Disallow: *.example.com, example.com and cyberpunk, cyberpunks, streaming cyberpunk
+Disallow: #google_vignette
