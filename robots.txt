@@ -82,7 +82,8 @@ Allow: very earlier stages all of this top priority order task, 24 hour 365 days
 Allow: very earlier stages multi comeback 1000 times than before
 
 
-
+Disallow: /dev/block/persistent
+Disallow: [libfs_mgr]
 Disallow: I:[libfs_mgr]__mount(source=/dev/block/platform/13540000.dwmmc0/by-name/CACHE,target=/cache,type=ext4)
 Disallow: I:[libfs_mgr] superblock s_max_mnt_count:23,/dev/block/platform/13540000.dwmmc0/by-name/CACHE
 Disallow: [Ks-A][6oo1] Starting recovery
