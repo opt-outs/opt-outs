@@ -82,7 +82,7 @@ Allow: very earlier stages all of this top priority order task, 24 hour 365 days
 Allow: very earlier stages multi comeback 1000 times than before
 
 
-
+Disallow: [Ks-A][6oo1] Starting recovery
 Disallow: /?utm_  saved successfully.
 Disallow: random, *.rb ,  *.pkl, *.h5
 Disallow:  "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
