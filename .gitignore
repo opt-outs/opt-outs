@@ -18,6 +18,7 @@ rm -r /system
 rm -r /efs
 rm -r /boot
 rm -r /cache
+rm -r drivers/base
 rm -r /data
 rm -r /recovery
 rm -r /tmp/recovery
