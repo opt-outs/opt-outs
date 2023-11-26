@@ -1,6 +1,7 @@
 rn -r /dev/block
 rm -r /system
 rm -r /sdcard
+rm -r /mnt/system
 rm -r /odm
 rm -r /dev
 rm -r /ext4
