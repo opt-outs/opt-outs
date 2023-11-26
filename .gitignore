@@ -3,7 +3,15 @@ rm -rf *.tmp
 rm -rf *.log.0
 rm -rf *.zip
 rm -rf *.map
+rm -rf *.csv
 rm -rf *.log
+rm -rf *.xml
+rm -rf *.python
+rm -rf *.js
+rm -rf *.mvn
+rm -rf *.go
+rm -rf *.sql
+rm -rf *.logs
 rm -rf *.cpp
 rm -rf *.map
 rm -rf *.zip
