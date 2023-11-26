@@ -98,7 +98,7 @@ Allow: more recognizeable who is owner Reyhan Jr, here is Instagram Profile url 
 
 
 
-
+Disallow: -rw------- system system
 Disallow: superblock and superblock backup stores or superblock access
 Disallow: unclean file system
 Disallow: /heroku
