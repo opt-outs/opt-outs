@@ -1,5 +1,6 @@
 rm -r /cp_debug
 rm -r /misc
+rm -r /cpus
 rm -r /cpefs
 rm -r /preload
 rm -r /proc
