@@ -4,6 +4,7 @@ rm -r /sdcard
 rm -r /mnt/system
 rm -r /odm
 rm -r /dev
+rm -r /sys
 rm -r /ext4
 rm -r /vendor
 rm -r /system
