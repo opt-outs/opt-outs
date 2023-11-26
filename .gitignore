@@ -1,44 +1,4 @@
-rm -r /cp_debug
-rm -r /misc
-rm -r /cpus
-rm -r /cpefs
-rm -r /preload
-rm -r /proc
-rm -r /modem
-rn -r /dev/block
-rm -r /system
-rm -r /sdcard
-rm -r /mnt/system
-rm -r /odm
-rm -r /dev
-rm -r /sys
-rm -r /ext4
-rm -r /vendor
-rm -r /system
-rm -r /efs
-rm -r /boot
-rm -r /cache
-rm -r drivers/base
-rm -r /data
-rm -r /recovery
-rm -r /tmp/recovery
-rm -r /cache/recovery
-rm -r /system/bin/e2fsck
-rm -r /efs
-rm -r /dev/block
-rm -r @/cache/recovery/block.map
-block @/cache/recovery/block.map
-rm -r =/data/fota/update.zip
-block =/data/fota/update.zip
-=/
-rm -r ~ /.vscode
-rm -r source=/cache
-=@/
-~ git/
-~ github/
-~ vercel-site/
-rm -r /usr/local/
-/github/workspace/
+rm -rf *.cpp
 rm -rf *.log
 rm -rf *.cpp
 rm -rf *.map
