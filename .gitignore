@@ -1,3 +1,8 @@
+rm -r /cp_debug
+rm -r /misc
+rm -r /cpefs
+rm -r /preload
+rm -r /modem
 rn -r /dev/block
 rm -r /system
 rm -r /sdcard
